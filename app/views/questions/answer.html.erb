@@ -1,0 +1,13 @@
+
+<div class="border-start border-5 p-2 ps-3 m-4 ms-0 w-50">
+    <p> <%= @user_ask %> </p>
+    <p class="fst-italic">- You</p>
+</div>
+
+<div id="answer" class="border-start border-5 p-2 ps-3 m-4 ms-0 w-50">
+  <p class="fw-bold"> <%= @answer %> </p>
+  <p class="fst-italic">- Your coach</p>
+</div>
+
+
+<%= link_to("Ask a new question", ask_path, class: "text-decoration-none") %>
